@@ -5,7 +5,7 @@
 # ruby to install at `cap deploy:setup` time. If you change this value, you
 # need to run `cap ruby:upgrade`. Currently allowed values include: mri,
 # src187, ree, ree187
-:ruby: ree187
+:ruby: src192
 
 # Name of your application. Should be something with only alphanumerics, hypens
 # and underscores.
@@ -21,7 +21,7 @@
 :deploy_to: /srv/moonshine
 
 # Primary domain application will be accessed as 
-:domain: yourapp.com
+:domain: lavatech.com
 
 # Domain aliases for application. One common use of this is for asset hosts.
 #:domain_aliases:
